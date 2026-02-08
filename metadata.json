@@ -1,6 +1,12 @@
 
 {
-  "name": "Adare Software Portfolio",
-  "description": "A premium, modern software agency portfolio featuring custom development, AI integration, and professional hosting services. Built with React, Tailwind, and Gemini AI.",
+  "name": "Adare Software Company",
+  "description": "We build beautiful websites for high-quality businesses. Our sites use smart AI to talk to your customers, handle bookings, and make your business look professional online.",
+  "what_we_do": [
+    "Modern Website Design",
+    "Smart AI Chat and Automation",
+    "Fast and Safe Hosting",
+    "Easy Digital Solutions"
+  ],
   "requestFramePermissions": []
 }
