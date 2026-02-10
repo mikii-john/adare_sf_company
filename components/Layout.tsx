@@ -146,7 +146,6 @@ const Footer = () => (
           <h4 className="font-bold text-sm uppercase tracking-widest mb-6 text-black dark:text-white">Contact & Info</h4>
           <ul className="space-y-2 font-medium">
             <li><CopyableFooterItem label="Phone" value="0939553283" /></li>
-            <li><CopyableFooterItem label="CBE" value="1000323871551" /></li>
             <li><CopyableFooterItem label="Email" value="milkesayohanes@gmail.com" /></li>
           </ul>
         </div>

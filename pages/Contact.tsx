@@ -104,7 +104,7 @@ const Contact = () => {
 
           <div className="space-y-6 mb-16">
             <CopyableInfo label="Phone Number" value="0939553283" icon="smile" />
-            <CopyableInfo label="CBE Account" value="1000323871551" icon="server" />
+          
             <CopyableInfo label="Send an Email" value="milkesayohanes@gmail.com" icon="users" />
           </div>
 
