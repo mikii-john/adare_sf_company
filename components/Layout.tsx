@@ -130,8 +130,8 @@ const CopyableFooterItem = ({ label, value }: { label: string; value: string }) 
 const Footer = () => (
   <footer className="bg-white dark:bg-[#050505] py-20 border-t border-gray-100 dark:border-white/5">
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div className="grid grid-cols-1 md:grid-cols-4 gap-12">
-        <div className="col-span-1 md:col-span-2">
+      <div className="grid grid-cols-1 md:grid-cols-12 gap-8 md:gap-12">
+        <div className="col-span-1 md:col-span-5">
           <Link to="/" className="flex items-center mb-8 group">
             <AdareLogo className="w-24 h-24" />
           </Link>
@@ -142,14 +142,14 @@ const Footer = () => (
              {[1, 2, 3, 4].map(i => <div key={i} className="w-10 h-10 rounded-xl bg-gray-50 dark:bg-white/5 flex items-center justify-center cursor-pointer hover:bg-primary hover:text-white transition-all border border-transparent hover:border-primary/20 shadow-sm"></div>)}
           </div>
         </div>
-        <div>
+        <div className="md:col-span-4 md:col-start-7">
           <h4 className="font-bold text-sm uppercase tracking-widest mb-6 text-black dark:text-white">Contact & Info</h4>
           <ul className="space-y-2 font-medium">
             <li><CopyableFooterItem label="Phone" value="0939553283" /></li>
             <li><CopyableFooterItem label="Email" value="milkesayohanes@gmail.com" /></li>
           </ul>
         </div>
-        <div>
+        <div className="md:col-span-2">
           <h4 className="font-bold text-sm uppercase tracking-widest mb-6 text-black dark:text-white">Company</h4>
           <ul className="space-y-4 text-black/60 dark:text-gray-400 text-sm font-medium">
             <li><Link to="/about" className="hover:text-primary transition-colors">Our Story</Link></li>
